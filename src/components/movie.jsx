@@ -18,6 +18,7 @@ class Movie extends Component {
           <div className="col-2">
             <h5>{this.state.movie.numberInStock}</h5>
           </div>
+
           <div className="col-2">
             <h5>{this.state.movie.dailyRentalRate}</h5>
           </div>
